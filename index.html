@@ -1,117 +1,216 @@
 <!DOCTYPE html>
 <html lang="de">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>TaFo(App)</title>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- CSS Stylesheets -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="styles.css" />
+  <title>TaFo(App)</title>
 
-    <!-- Font Awesome -->
-    <script
-      defer
-      src="https://use.fontawesome.com/releases/v6.4.0/js/all.js"
-    ></script>
-  </head>
+  <!-- CSS Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css" />
 
-  <body>
-    <!-- ======================================= -->
-    <!-- ===== Section 1: Navigationszeile ===== -->
-    <!-- ======================================= -->
-    <!-- Die Navigationszeile ist dafür da, dass man schnell zu bestimmten Sections auf unserer Website navigieren kann-->
-    <section class="section-style-1" id="navbar">
-      <div class="container-fluid">
-        <!-- Dein Code -->
-      </div>
-    </section>
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v6.4.0/js/all.js"></script>
+</head>
 
-    <!-- ================================ -->
-    <!-- ===== Section 2: Überblick ===== -->
-    <!-- ================================ -->
-    <!-- Hier wird der Nutzer auf unsere App aufmerksam gemacht -->
-    <section class="section-style-2" id="überblick">
-      <div class="container-fluid">
-        <!-- Dein Code -->
-        <div  class="row">
-            <div class="coll-lg-6 überblick links"></div>
-            <h1 class="großer Titel">TaFo</h1>
-            <h3 class="kleiner Titel">Tasty Food: Hier bestellen und in 10min wird es bei dir ankommen
-            </h3>
-            <button type="button" class="btn btn-dark btn-lg">Probier es aus!</button>
-            <div class="coll-lg-6 überblick rechts">
-              <img class="app-bild" src="images/Sushi-Bild.jpg" />
-            </div>
+<body>
+  <!-- ======================================= -->
+  <!-- ===== Section 1: Navigationszeile ===== -->
+  <!-- ======================================= -->
+  <!-- Die Navigationszeile ist dafür da, dass man schnell zu bestimmten Sections auf unserer Website navigieren kann-->
+  <section class="section-style-1" id="navbar">
+    <div class="container-fluid">
+      <!-- Dein Code -->
+    </div>
+  </section>
+
+  <!-- ================================ -->
+  <!-- ===== Section 2: Überblick ===== -->
+  <!-- ================================ -->
+  <!-- Hier wird der Nutzer auf unsere App aufmerksam gemacht -->
+  <section class="section-style-2" id="überblick">
+    <div class="container-fluid">
+      <!-- Dein Code -->
+      <div class="row">
+        <div class="coll-lg-6 überblick links"></div>
+        <h1 class="großer Titel">TaFo</h1>
+        <h3 class="kleiner Titel">Tasty Food: Hier bestellen und in 10min wird es bei dir ankommen
+        </h3>
+        <button onclick="window.location.href = 'https://www.lieferando.de/?&adj_tracker=tn818ro&adj_campaign=11563346784&gclid=EAIaIQobChMImbj_1sXy_wIVh-ztCh2pHQsmEAAYASAAEgJfW_D_BwE&gclsrc=aw.ds'" type="button" class="btn btn-dark btn-lg">Probier es aus!</button>
+        <div class="coll-lg-6 überblick rechts">
+          <img class="app-bild" src="images/Sushi-Bild.jpg" />
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- =============================== -->
-    <!-- ===== Section 3: Features ===== -->
-    <!-- =============================== -->
-    <!-- Hier werden die Features unserer App aufgelistet -->
-    <section class="section-style-1" id="features">
-      <div class="container-fluid text-center">
+  <!-- =============================== -->
+  <!-- ===== Section 3: Features ===== -->
+  <!-- =============================== -->
+  <!-- Hier werden die Features unserer App aufgelistet -->
+  <section class="section-style-1" id="features">
+    <div class="container-fluid text-center">
 
-        <div class="row">
-          <div class="feature-box col-lg-4">
+      <div class="row">
+        <div class="feature-box col-lg-4">
+
+
+          <h3 class="kleiner-titel3">Suchen</h3>
+          <p>
+            Finde über 3000 leckere Gerichte
+
+          </p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <h3 class="kleiner-titel3">Bestellen</h3>
+          <p>
+            Zahle gleich beim Bestellen</p> 
+            <i class="icon fa-solid fa-cart-shopping"></i>
+        
+        </div>
+        <div class="feature-box col-lg-4">
+          <h3 class="kleiner-titel3">Essen</h3>
+          <p>Genieße dein Essen!</p>
           
-
-            <h3 class="kleiner-titel">Suchen</h3>
-            <p>
-              Finde über 300 leckere Gerichte
-              <i class="fa-solid fa-pizza-slice" style="color: #ffffff;"></i>
-            </p>
-          </div>
-          <div class="feature-box col-lg-4"> <h3 class="kleiner-titel">Bestellen</h3>
-            <p>
-             Zahle gelich beim Bestellen
-            </p></div>
-          <div class="feature-box col-lg-4"> <h3 class="kleiner-titel">Essen</h3>
-            <p>
-              Genieße dein Essen!
-            </p></div>    
-        <!-- Dein Code -->
-      </div></div>
-    </section>
-
-    <!-- ========================================= -->
-    <!-- ===== Section 4: Nutzer-Bewertungen ===== -->
-    <!-- ========================================= -->
-    <!-- Hier werden die Nutzer-Bewertungen angezeigt -->
-    <section class="section-style-2" id="bewertungen">
-      <!-- Dein Code -->
-    </section>
-
-    <!-- ============================= -->
-    <!-- ===== Section 5: Preise ===== -->
-    <!-- ============================= -->
-    <!-- Hier werden die verschiedenen Preispläne unserer App aufgelistet -->
-    <section class="section-style-1" id="preise">
-      <!-- Dein Code -->
-    </section>
-
-    <!-- ============================= -->
-    <!-- ===== Section 6: Footer ===== -->
-    <!-- ============================= -->
-    <!-- Hier werden die Social-Media-Icons und der Copyright-Text angezeigt -->
-    <section class="section-style-2" id="footer">
-      <div class="container-fluid text-center">
+        </div>
         <!-- Dein Code -->
       </div>
-    </section>
-    <!-- Bootstrap JS Script -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    </div>
+  </section>
+
+  <!-- ========================================= -->
+  <!-- ===== Section 4: Nutzer-Bewertungen ===== -->
+  <!-- ========================================= -->
+  <!-- Hier werden die Nutzer-Bewertungen angezeigt -->
+  <section class="section-style-2" id="bewertungen">
+
+
+    <div class="carousel slide text-center" id="bewertungen-carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <h2 class="bewertung-text">
+            Deine Vorteile
+          </h2>
+          <p></p>
+          <p>Bezahle wannn und wo du willst</p>
+          <div>Wähle dein Essen von mehr als 3000 Gerichten aus</div>
+        </div>
+        <div class="carousel-item">
+          <h2 class="bewertung-text">Unsere Garnatie</h2>
+          <p></p>
+          <p>Ausgezeichneter Service</p>
+          <div>Essen wo auch immer du bist
+
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <h2 class="bewertung-text"> Werde Mitglied! </h2>
+          <p></p>
+          <p>Melde dich an</p>
+          <div>Erhalte Vorteile für dich und deine Freunde
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#bewertungen-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#bewertungen-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+  </section>
+
+  <!-- ============================= -->
+  <!-- ===== Section 5: Preise ===== -->
+  <!-- ============================= -->
+  <!-- Hier werden die verschiedenen Preispläne unserer App aufgelistet -->
+  <section class="section-style-1" id="preise">
+    <!-- Dein Code -->
+    <div class="row text-center">
+      <div class="col">
+        <div class="card rounded-3">
+          <div class="card-header">
+            <!-- Hier spezifizieren wir den Titel des ersten Preisplans -->
+            <h3 class="kleiner-titel">Free</h3>
+          </div>
+          <div class="card-body">
+            <h1>0€</h1>
+            <ul class="list-unstyled">
+              <li>Limitierte Features</li>
+              <li>Werbung</li>
+              <li>Kein Support</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="card-body">
+        <!-- Hier spezifizieren wir den ersten Preisplan -->
+      </div>
+    </div>
+    <div class="row text-center">
+    <div class="col">
+      <div class="card rounded-3">
+        <div class="card-header">
+          <!-- Hier spezifizieren wir den Titel des zweiten Preisplans -->
+          <h3 class="kleiner-titel">Free</h3>
+        </div>
+        <div class="card-body">
+          <h1>0€</h1>
+          <ul class="list-unstyled">
+            <li>Limitierte Features</li>
+            <li>Werbung</li>
+            <li>Kein Support</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+    <div class="card-body">
+      <!-- Hier spezifizieren wir den zweiten Preisplan -->
+    </div>
+    <div class="row text-center">
+    <div class="col">
+      <div class="card rounded-3">
+        <div class="card-header">
+          <!-- Hier spezifizieren wir den Titel des dritten Preisplans -->
+          <h3 class="kleiner-titel">Free</h3>
+        </div>
+        <div class="card-body">
+          <h1>0€</h1>
+          <ul class="list-unstyled">
+            <li>Limitierte Features</li>
+            <li>Werbung</li>
+            <li>Kein Support</li>
+          </ul>
+        </div>
+      </div>
+    </div> </div></div>
+    <div class="card-body">
+      <!-- Hier spezifizieren wir den dritten Preisplan -->
+    </div>
+    <button onclick="window.location.href = ''" type="button" class="btn btn-dark btn-lg">Probier es aus!<div class="row text-center"></div></button>
+
+  </section>
+
+  <!-- ============================ -->
+  <!-- ===== Section 6: Foo=ter ===== -->
+  <!-- ============================= -->
+  <!-- Hier werden die Social-Media-Icons und der Copyright-Text angezeigt -->
+  <section class="section-style-2" id="footer">
+    <div class="container-fluid text-center">
+      <!-- Dein Code -->
+    </div>
+  </section>
+  <!-- Bootstrap JS Script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

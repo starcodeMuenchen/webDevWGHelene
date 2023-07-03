@@ -16,7 +16,7 @@
 
 /* Dein Code */
 .section-style-2 {
-    background-color: rgb(100, 100, 168);
+    background-color: rgb(102, 102, 173);
     color: rgb(255, 255, 255)
 }
 
@@ -25,7 +25,7 @@
     font-weight: bold;
 }
 
-.kleiner-titel {
+.kleiner-titel3 {
     font-size: 30px;
 }
 .app-bild {
@@ -52,30 +52,47 @@
   }
   
   .section-style-1 {
-    background-color:  rgb(41, 41, 104);
+    background-color:  rgb(158, 158, 196);
     color: rgb(255, 255, 255);
   }
 
   .feature-box {
     padding: 3%;
   }
+
+ 
+  
+  
 /* =============================== */
 /* ===== Section 3: Features ===== */
 /* =============================== */
 
-/* Dein Code */
+/* Dein Code */.icon {color: rgb(162, 129, 192);}
+.icon:hover {color: rgb(76, 172, 81);}
 
 /* ================================== */
 /* ===== Section 4: Bewertungen ===== */
 /* ================================== */
 
-/* Dein Code */
+/* Dein Code */#bewertungen {
+  padding: 3%;
+}
+.bewertung-text {
+  font-size: 40px;
+  margin: 0 10%;
+  color: rgb(50, 50, 126);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 /* ============================= */
 /* ===== Section 5: Preise ===== */
-/* ============================= */
+/* ================= =========== */
 
 /* Dein Code */
+.kleiner-titel {
+  color: rgb(175, 109, 83);
+}
+.cardbody {color: blue;}
 
 /* ============================= */
 /* ===== Section 6: Footer ===== */
